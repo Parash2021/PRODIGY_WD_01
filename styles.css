@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Section styles */
+section {
+    padding: 80px 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* Different colors for each section */
+#home {
+    background-color: #ffe4e1; /* Light pink */
+}
+
+#about {
+    background-color: #e6e6fa; /* Lavender */
+}
+
+#services {
+    background-color: #f0fff0; /* Honeydew */
+}
+
+#contact {
+    background-color: #f5f5dc; /* Beige */
+}
+
+/* Different colors for headings in each section */
+#home h1 {
+    color: #ff4500; /* OrangeRed */
+}
+
+#about h1 {
+    color: #8a2be2; /* BlueViolet */
+}
+
+#services h1 {
+    color: #228b22; /* ForestGreen */
+}
+
+#contact h1 {
+    color: #daa520; /* GoldenRod */
+}
+
+/* Different colors for paragraphs in each section */
+#home p {
+    color: #cd5c5c; /* IndianRed */
+}
+
+#about p {
+    color: #6a5acd; /* SlateBlue */
+}
+
+#services p {
+    color: #2e8b57; /* SeaGreen */
+}
+
+#contact p {
+    color: #b8860b; /* DarkGoldenRod */
+}
